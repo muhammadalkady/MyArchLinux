@@ -80,10 +80,10 @@ echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "
 echo "Installing Google Chrome..."
 echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "--noconfirm" -S google-chrome
 
-cp dofiles/.XResources .XResources
+cp dotFiles/.XResources .XResources
 xrdb -merge .Xresources
 
-cp dofiles/.gtkrc-2.0.mine .gtkrc-2.0.mine
+cp dotFiles/.gtkrc-2.0.mine .gtkrc-2.0.mine
 
 mkdir .config
 cp -r i3 .config/i3

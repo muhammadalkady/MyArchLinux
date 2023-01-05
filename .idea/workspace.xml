@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="own yay dir" />
+    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="do not reboot">
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +73,7 @@
       <workItem from="1672922366138" duration="1715000" />
       <workItem from="1672926331050" duration="3400000" />
       <workItem from="1672931433701" duration="2554000" />
-      <workItem from="1672933998089" duration="1523000" />
+      <workItem from="1672933998089" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="update post installation script">
       <created>1672927454895</created>
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672934916801</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="do not reboot">
+      <created>1672935735469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672935735469</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +155,7 @@
     <MESSAGE value="add picom" />
     <MESSAGE value="stop java installation for now" />
     <MESSAGE value="own yay dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="own yay dir" />
+    <MESSAGE value="do not reboot" />
+    <option name="LAST_COMMIT_MESSAGE" value="do not reboot" />
   </component>
 </project>
