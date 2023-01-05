@@ -52,8 +52,8 @@ sudo pacman -S firefox --noconfirm --needed
 echo "install text tools..."
 sudo pacman -S vim nano geany --noconfirm --needed
 
-echo "Installing Java..."
-sudo pacman -S jdk8-openjdk jdk11-openjdk jdk17-openjdk --noconfirm --needed
+#echo "Installing Java..."
+#sudo pacman -S jdk8-openjdk jdk11-openjdk jdk17-openjdk --noconfirm --needed
 
 echo "Installing mics tools..."
 sudo pacman -S tldr wget neofetch --noconfirm --needed
