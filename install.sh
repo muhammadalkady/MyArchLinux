@@ -99,7 +99,7 @@ cp -r dotFiles/gtk-2.0 "$HOME"/.config/gtk-2.0
 cp -r dotFiles/gtk-3.0 "$HOME"/.config/gtk-3.0
 cp -r dotFiles/geany "$HOME"/.config/geany
 
-sudo cp -f dotFiles/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+sudo cp -a dm/. /etc/lightdm/
 
 # Rebooting....
 echo "run after reboot xrdb -merge .Xresources"

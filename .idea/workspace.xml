@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="update post installation script">
-      <change afterPath="$PROJECT_DIR$/dotFiles/lightdm-gtk-greeter.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotFiles/dm/Xsession" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotFiles/dm/keys.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotFiles/dm/lightdm.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotFiles/dm/users.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/lightdm-gtk-greeter.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dotFiles/dm/lightdm-gtk-greeter.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/mnt/data/IdeaProjects/MyArchLinux/dotFiles",
+    "last_opened_file_path": "/mnt/data/IdeaProjects/MyArchLinux/dotFiles/dm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,7 +51,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dotFiles/dm" />
       <recent name="$PROJECT_DIR$/dotFiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dotFiles/dm" />
     </key>
   </component>
   <component name="RunManager">
@@ -77,7 +85,7 @@
       <workItem from="1672926331050" duration="3400000" />
       <workItem from="1672931433701" duration="2554000" />
       <workItem from="1672933998089" duration="3887000" />
-      <workItem from="1672945198332" duration="3634000" />
+      <workItem from="1672945198332" duration="4416000" />
     </task>
     <task id="LOCAL-00001" summary="update post installation script">
       <created>1672927454895</created>
@@ -191,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672952038121</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update post installation script">
+      <created>1672952414246</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672952414246</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
