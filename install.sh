@@ -34,6 +34,9 @@ sudo pacman -S lightdm lightdm-gtk-greeter --noconfirm --needed
 echo "Installing recommended fonts..."
 sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont ttf-liberation ttf-droid ttf-inconsolata ttf-roboto terminus-font ttf-font-awesome --noconfirm --needed
 
+echo "Installing picom..."
+sudo pacman -S picom --noconfirm --needed
+
 echo "Installing network manager"
 sudo pacman -S networkmanager --noconfirm --needed
 
