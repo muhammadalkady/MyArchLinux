@@ -1,3 +1,5 @@
+#!/bin/bash
+# flag file must exist across reboots
 cat <<welcome_message
 This script was written by Muhammad Alkady kady.muhammad@gmail.com
 welcome_message
@@ -75,15 +77,16 @@ echo "Installing thunar..."
 sudo pacman -S thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman --noconfirm --needed
 
 echo "Installing Iosevka and MicrosoftFonts fonts..."
-echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "--noconfirm" -S ttf-ms-fonts ttc-iosevka ttf-iosevka-nerd
+echo -S ttf-ms-fonts ttc-iosevka ttf-iosevka-nerd --noconfirm
 
 echo "Installing Google Chrome..."
-echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "--noconfirm" -S google-chrome
+echo -S google-chrome --noconfirm
 
 cp dotFiles/.Xresources "$HOME"/.Xresources
-xrdb -merge "$HOME"/.Xresources
 
 cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0
+
+cp dotFiles/.gitconfig "$HOME"/.gitconfig
 
 mkdir -p "$HOME"/.config
 cp -r dotFiles/i3 "$HOME"/.config/i3
@@ -93,5 +96,15 @@ cp -r dotFiles/gtk-3.0 "$HOME"/.config/gtk-3.0
 cp -r dotFiles/geany "$HOME"/.config/geany
 
 # Rebooting....
-# echo "Rebooting...."
-# reboot
+echo "run after reboot xrdb -merge .Xresources"
+echo "Reboot? Y or N"
+# shellcheck disable=SC2162
+read rebootNow
+
+# shellcheck disable=SC2004
+if(( $rebootNow == "Y" ))
+then
+  reboot
+else
+  echo "DONE!"
+fi

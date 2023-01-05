@@ -1,0 +1,7 @@
+[safe]
+	directory = /opt/flutter
+[user]
+	name = Muhammad Alkady
+	email = kady.muhammad@gmail.com
+[credential]
+	helper = store

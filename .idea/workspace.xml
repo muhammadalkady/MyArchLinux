@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="mkdir if not exist">
+    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="update post installation script">
+      <change afterPath="$PROJECT_DIR$/dotFiles/.gitconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
     </list>
@@ -28,21 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/data/IdeaProjects/MyArchLinux/dotFiles&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/mnt/data/IdeaProjects/MyArchLinux/dotFiles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dotFiles" />
@@ -75,7 +77,7 @@
       <workItem from="1672926331050" duration="3400000" />
       <workItem from="1672931433701" duration="2554000" />
       <workItem from="1672933998089" duration="3887000" />
-      <workItem from="1672945198332" duration="50000" />
+      <workItem from="1672945198332" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="update post installation script">
       <created>1672927454895</created>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672937501194</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update post installation script">
+      <created>1672945293720</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672945293720</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +189,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="enable lightdm greeter" />
-    <MESSAGE value="update post installation script" />
     <MESSAGE value="fix post installation script permission issue" />
     <MESSAGE value="add picom" />
     <MESSAGE value="stop java installation for now" />
@@ -189,6 +197,7 @@
     <MESSAGE value="fix file name" />
     <MESSAGE value="fix files names" />
     <MESSAGE value="mkdir if not exist" />
-    <option name="LAST_COMMIT_MESSAGE" value="mkdir if not exist" />
+    <MESSAGE value="update post installation script" />
+    <option name="LAST_COMMIT_MESSAGE" value="update post installation script" />
   </component>
 </project>
