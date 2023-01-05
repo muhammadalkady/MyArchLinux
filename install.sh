@@ -110,5 +110,5 @@ if(( $rebootNow == "Y" ))
 then
   reboot
 else
-  echo "DONE!"
+  echo "You can reboot now ----> DONE!"
 fi
