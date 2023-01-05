@@ -80,15 +80,15 @@ echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "
 echo "Installing Google Chrome..."
 echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "--noconfirm" -S google-chrome
 
-cp dotFiles/.XResources .XResources
-xrdb -merge .Xresources
+cp dotFiles/.Xresources "$HOME"/.Xresources
+xrdb -merge "$HOME"/.Xresources
 
-cp dotFiles/.gtkrc-2.0.mine .gtkrc-2.0.mine
+cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0.mine
 
-mkdir .config
-cp -r i3 .config/i3
-cp -r i3status .config/i3status
-cp -r geany .config/geany
+mkdir "$HOME"/.config
+cp -r i3 "$HOME"/.config/i3
+cp -r i3status "$HOME"/.config/i3status
+cp -r geany "$HOME"/.config/geany
 
 # Rebooting....
 # echo "Rebooting...."
