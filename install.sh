@@ -91,5 +91,5 @@ cp -r i3status .config/i3status
 cp -r geany .config/geany
 
 # Rebooting....
-echo "Rebooting...."
-reboot
+# echo "Rebooting...."
+# reboot

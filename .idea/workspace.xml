@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="stop java installation for now" />
+    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="own yay dir" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +71,7 @@
       <workItem from="1672922366138" duration="1715000" />
       <workItem from="1672926331050" duration="3400000" />
       <workItem from="1672931433701" duration="2554000" />
-      <workItem from="1672933998089" duration="807000" />
+      <workItem from="1672933998089" duration="1523000" />
     </task>
     <task id="LOCAL-00001" summary="update post installation script">
       <created>1672927454895</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672934563843</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="own yay dir">
+      <created>1672934916801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672934916801</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +145,7 @@
     <MESSAGE value="fix post installation script permission issue" />
     <MESSAGE value="add picom" />
     <MESSAGE value="stop java installation for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="stop java installation for now" />
+    <MESSAGE value="own yay dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="own yay dir" />
   </component>
 </project>
