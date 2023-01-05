@@ -84,6 +84,7 @@ yay -S google-chrome --noconfirm
 
 echo "Installing Flutter..."
 yay -S flutter
+sudo chown muhammad: /opt/flutter
 flutter doctor
 
 cp dotFiles/.Xresources "$HOME"/.Xresources
@@ -99,18 +100,9 @@ cp -r dotFiles/gtk-2.0 "$HOME"/.config/gtk-2.0
 cp -r dotFiles/gtk-3.0 "$HOME"/.config/gtk-3.0
 cp -r dotFiles/geany "$HOME"/.config/geany
 
-sudo cp -a dm/. /etc/lightdm/
+sudo cp -a dotFiles/dm/. /etc/lightdm/
 
 # Rebooting....
 echo "run after reboot xrdb -merge .Xresources"
-echo "Reboot? Y or N"
-# shellcheck disable=SC2162
-read rebootNow
+echo "You can reboot now ----> DONE!"
 
-# shellcheck disable=SC2004
-if(( $rebootNow == "Y" ))
-then
-  reboot
-else
-  echo "You can reboot now ----> DONE!"
-fi
