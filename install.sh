@@ -57,7 +57,7 @@ sudo pacman -S vim nano geany --noconfirm --needed
 #sudo pacman -S jdk8-openjdk jdk11-openjdk jdk17-openjdk --noconfirm --needed
 
 echo "Installing mics tools..."
-sudo pacman -S tldr wget neofetch --noconfirm --needed
+sudo pacman -S tldr wget neofetch xdg-utils --noconfirm --needed
 
 echo "Installing media tools..."
 sudo pacman -S pavucontrol mvp ffmpeg --noconfirm --needed
@@ -86,9 +86,9 @@ xrdb -merge "$HOME"/.Xresources
 cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0.mine
 
 mkdir "$HOME"/.config
-cp -r i3 "$HOME"/.config/i3
-cp -r i3status "$HOME"/.config/i3status
-cp -r geany "$HOME"/.config/geany
+cp -r dotFiles/i3 "$HOME"/.config/i3
+cp -r dotFiles/i3status "$HOME"/.config/i3status
+cp -r dotFiles/geany "$HOME"/.config/geany
 
 # Rebooting....
 # echo "Rebooting...."
