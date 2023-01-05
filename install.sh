@@ -9,7 +9,6 @@ sudo pacman -Syu --noconfirm
 
 echo "Installing yay..."
 sudo git clone https://aur.archlinux.org/yay.git
-sudo chown -R cloudcone:users yay
 cd yay || exit
 makepkg -si
 yay --version
