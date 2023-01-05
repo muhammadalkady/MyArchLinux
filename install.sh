@@ -50,6 +50,9 @@ sudo pacman -S tldr wget neofetch --noconfirm --needed
 echo "Installing media tools..."
 sudo pacman -S pavucontrol mvp ffmpeg --noconfirm --needed
 
+echo "Enabling lightdm greeter"
+sudo systemctl enable lightdm -f
+
 # Rebooting....
 echo "Rebooting...."
 reboot

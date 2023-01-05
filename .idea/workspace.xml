@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="">
+    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="update post installation script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
     </list>
@@ -48,11 +48,23 @@
       <option name="presentableId" value="Default" />
       <updated>1672922364791</updated>
       <workItem from="1672922366138" duration="1715000" />
-      <workItem from="1672926331050" duration="971000" />
+      <workItem from="1672926331050" duration="2459000" />
     </task>
+    <task id="LOCAL-00001" summary="update post installation script">
+      <created>1672927454895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672927454895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update post installation script" />
+    <option name="LAST_COMMIT_MESSAGE" value="update post installation script" />
   </component>
 </project>
