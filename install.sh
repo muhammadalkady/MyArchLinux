@@ -83,11 +83,13 @@ echo y | LANG=C yay --noprovides --answerdiff None --answerclean None --mflags "
 cp dotFiles/.Xresources "$HOME"/.Xresources
 xrdb -merge "$HOME"/.Xresources
 
-cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0.mine
+cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0
 
 mkdir -p "$HOME"/.config
 cp -r dotFiles/i3 "$HOME"/.config/i3
 cp -r dotFiles/i3status "$HOME"/.config/i3status
+cp -r dotFiles/gtk-2.0 "$HOME"/.config/gtk-2.0
+cp -r dotFiles/gtk-3.0 "$HOME"/.config/gtk-3.0
 cp -r dotFiles/geany "$HOME"/.config/geany
 
 # Rebooting....

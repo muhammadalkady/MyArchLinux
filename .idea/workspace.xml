@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="fix files names">
+    <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="mkdir if not exist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,8 @@
       <workItem from="1672922366138" duration="1715000" />
       <workItem from="1672926331050" duration="3400000" />
       <workItem from="1672931433701" duration="2554000" />
-      <workItem from="1672933998089" duration="2836000" />
+      <workItem from="1672933998089" duration="3887000" />
+      <workItem from="1672945198332" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="update post installation script">
       <created>1672927454895</created>
@@ -145,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672937084146</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix files names">
+      <created>1672937350746</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672937350746</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mkdir if not exist">
+      <created>1672937501194</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672937501194</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +188,7 @@
     <MESSAGE value="do not reboot" />
     <MESSAGE value="fix file name" />
     <MESSAGE value="fix files names" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix files names" />
+    <MESSAGE value="mkdir if not exist" />
+    <option name="LAST_COMMIT_MESSAGE" value="mkdir if not exist" />
   </component>
 </project>
