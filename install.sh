@@ -77,10 +77,14 @@ echo "Installing thunar..."
 sudo pacman -S thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman --noconfirm --needed
 
 echo "Installing Iosevka and MicrosoftFonts fonts..."
-echo -S ttf-ms-fonts ttc-iosevka ttf-iosevka-nerd --noconfirm
+yay -S ttf-ms-fonts ttc-iosevka ttf-iosevka-nerd --noconfirm
 
 echo "Installing Google Chrome..."
-echo -S google-chrome --noconfirm
+yay -S google-chrome --noconfirm
+
+echo "Installing Flutter..."
+yay -S flutter
+flutter doctor
 
 cp dotFiles/.Xresources "$HOME"/.Xresources
 
