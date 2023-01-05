@@ -85,7 +85,7 @@ xrdb -merge "$HOME"/.Xresources
 
 cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0.mine
 
-mkdir "$HOME"/.config
+mkdir -p "$HOME"/.config
 cp -r dotFiles/i3 "$HOME"/.config/i3
 cp -r dotFiles/i3status "$HOME"/.config/i3status
 cp -r dotFiles/geany "$HOME"/.config/geany
