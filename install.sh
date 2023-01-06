@@ -90,8 +90,12 @@ yay -S android-studio --noconfirm
 
 echo "Installing Flutter..."
 yay -S flutter
+
 sudo chown muhammad: /opt/flutter
 flutter doctor
+
+echo "Installing ScreenCopy..."
+yay -S scrcpy --noconfirm
 
 cp dotFiles/.Xresources "$HOME"/.Xresources
 
