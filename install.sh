@@ -55,8 +55,8 @@ sudo pacman -S firefox --noconfirm --needed
 echo "install text tools..."
 sudo pacman -S vim nano geany --noconfirm --needed
 
-#echo "Installing Java..."
-#sudo pacman -S jdk8-openjdk jdk11-openjdk jdk17-openjdk --noconfirm --needed
+echo "Installing Java..."
+sudo pacman -S jdk8-openjdk jdk11-openjdk jdk17-openjdk --noconfirm --needed
 
 echo "Installing mics tools..."
 sudo pacman -S tldr wget neofetch xdg-utils --noconfirm --needed
@@ -82,6 +82,12 @@ yay -S ttf-ms-fonts ttc-iosevka ttf-iosevka-nerd --noconfirm
 echo "Installing Google Chrome..."
 yay -S google-chrome --noconfirm
 
+echo "Installing Idea Ultimate"
+yay -S intellij-idea-ultimate-edition --noconfirm
+
+echo "Installing Android Studio..."
+yay -S android-studio --noconfirm
+
 echo "Installing Flutter..."
 yay -S flutter
 sudo chown muhammad: /opt/flutter
@@ -105,4 +111,3 @@ sudo cp -a dotFiles/dm/. /etc/lightdm/
 # Rebooting....
 echo "run after reboot xrdb -merge .Xresources"
 echo "You can reboot now ----> DONE!"
-
