@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b84d50-0f79-4de5-8325-7807fd08e37c" name="Changes" comment="update post installation script">
-      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install_2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/.Xresources" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/.Xresources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/.gitconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/.gtkrc-2.0.mine" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/.gtkrc-2.0.mine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/dm/Xsession" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/dm/Xsession" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/dm/keys.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/dm/keys.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/dm/lightdm-gtk-greeter.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/dm/lightdm-gtk-greeter.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/dm/lightdm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/dm/lightdm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/dm/users.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/dm/users.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/geany/colorschemes/bespin.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/geany/colorschemes/bespin.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/geany/colorschemes/himbeere.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/geany/colorschemes/himbeere.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/geany/filedefs/filetypes.README" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/geany/filedefs/filetypes.README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/geany/geany.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/geany/geany.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/geany/keybindings.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/geany/keybindings.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/geany/templates/templates.README" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/geany/templates/templates.README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/gtk-2.0/gtkfilechooser.ini" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/gtk-2.0/gtkfilechooser.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/gtk-3.0/bookmarks" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/gtk-3.0/bookmarks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/gtk-3.0/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/gtk-3.0/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/i3/config" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/i3/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotFiles/i3status/config" beforeDir="false" afterPath="$PROJECT_DIR$/dot_files/i3status/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install_1.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +70,9 @@
       <recent name="$PROJECT_DIR$/dotFiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/dotFiles/dm" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MyArchLinux" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MyArchLinux" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

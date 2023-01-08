@@ -1,17 +1,28 @@
 #!/bin/bash
-# flag file must exist across reboots
+
+# Define constants.
+dotfiles_path=dotfiles
+dpi=144
+user_name=muhammad
+
 cat <<welcome_message
-This script was written by Muhammad Alkady kady.muhammad@gmail.com
+This script was written by Muhammad Alkady kady.muhammad@gmail.com.
+This is script for my usages only. Use it at your own risk.
 welcome_message
 
-# Updating ArchLinux System.
+# Printing constants
+cat <<config_constants
+dotfiles path -----> $dotfiles_path
+dpi           -----> $dpi
+user name     -----> $user_name
+config_constants
+
 echo "Updating ArchLinux System..."
-sudo pacman -Syy --noconfirm
 sudo pacman -Syu --noconfirm
 
 echo "Installing yay..."
 sudo git clone https://aur.archlinux.org/yay.git
-sudo chown -R  muhammad:users yay
+sudo chown -R $user_name:users yay
 cd yay || exit
 makepkg -si
 yay --version
@@ -88,30 +99,11 @@ yay -S intellij-idea-ultimate-edition --noconfirm
 echo "Installing Android Studio..."
 yay -S android-studio --noconfirm
 
+# Installing Flutter and fix permissions issue.
 echo "Installing Flutter..."
 yay -S flutter
-
-sudo chown muhammad: /opt/flutter
+sudo chown $user_name: /opt/flutter
 flutter doctor
 
-echo "Installing ScreenCopy..."
+echo "Installing screen copy..."
 yay -S scrcpy --noconfirm
-
-cp dotFiles/.Xresources "$HOME"/.Xresources
-
-cp dotFiles/.gtkrc-2.0.mine "$HOME"/.gtkrc-2.0
-
-cp dotFiles/.gitconfig "$HOME"/.gitconfig
-
-mkdir -p "$HOME"/.config
-cp -r dotFiles/i3 "$HOME"/.config/i3
-cp -r dotFiles/i3status "$HOME"/.config/i3status
-cp -r dotFiles/gtk-2.0 "$HOME"/.config/gtk-2.0
-cp -r dotFiles/gtk-3.0 "$HOME"/.config/gtk-3.0
-cp -r dotFiles/geany "$HOME"/.config/geany
-
-sudo cp -a dotFiles/dm/. /etc/lightdm/
-
-# Rebooting....
-echo "run after reboot xrdb -merge .Xresources"
-echo "You can reboot now ----> DONE!"
