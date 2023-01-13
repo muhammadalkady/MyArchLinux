@@ -107,3 +107,5 @@ flutter doctor
 
 echo "Installing screen copy..."
 yay -S scrcpy --noconfirm
+
+reboot

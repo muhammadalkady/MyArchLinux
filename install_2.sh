@@ -16,5 +16,5 @@ cp -r $dotfiles_path/i3 "$HOME"/.config/i3
 cp -r $dotfiles_path/i3status "$HOME"/.config/i3status
 cp -r $dotfiles_path/geany "$HOME"/.config/geany
 sudo cp -a $dotfiles_path/dm/. /etc/lightdm/
-# Rebooting....
-echo "run install_2 after rebooting"
+
+reboot
