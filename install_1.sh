@@ -157,6 +157,7 @@ sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont ttf-lib
 
 echo "Installing picom..."
 sudo pacman -S picom --noconfirm --needed
+yay -S picom-jonaburg-git --noconfirm
 
 ################################################################################################
 #
@@ -312,7 +313,7 @@ yay -S android-studio --noconfirm
 ################################################################################################
 
 echo "Installing Flutter..."
-yay -S flutter
+yay -S flutter --noconfirm
 sudo chown $user_name: /opt/flutter
 flutter doctor
 
