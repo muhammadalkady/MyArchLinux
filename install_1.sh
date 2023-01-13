@@ -263,6 +263,18 @@ sudo pacman -S xfce4-terminal alacritty --noconfirm --needed
 
 ################################################################################################
 #
+# Installing zsh.
+#
+################################################################################################
+
+echo "Installing zsh..."
+sudo pacman -S zsh --noconfirm --needed
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s $(which zsh)
+yay -S zsh-syntax-highlighting-git --noconfirm
+
+################################################################################################
+#
 # Installing file manager.
 #
 ################################################################################################
@@ -325,6 +337,12 @@ flutter doctor
 
 echo "Installing screen copy..."
 yay -S scrcpy --noconfirm
+
+################################################################################################
+#
+# Add install_2.sh script to be excuted after the reboot using systemd service.
+#
+################################################################################################
 
 ################################################################################################
 #
