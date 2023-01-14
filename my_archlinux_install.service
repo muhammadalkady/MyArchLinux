@@ -4,7 +4,7 @@ Description=My ArchLinux Install Service
 [Service]
 User=$USER
 Type=oneshot
-ExecStart=/home/$USER/MyArchLinux/install_2.sh
+ExecStart=/usr/local/bin/install_2.sh
 
 [Install]
 WantedBy=multi-user.target
