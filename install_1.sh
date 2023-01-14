@@ -340,6 +340,8 @@ flutter doctor
 ################################################################################################
 
 cp ./my_archlinux_install.service /etc/systemd/system
+systemctl daemon-reload
+systemctl enable my_archlinux_install.service
 sudo chmod +x ./install_2.sh
 
 ################################################################################################
